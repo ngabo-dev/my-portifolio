@@ -9,7 +9,7 @@ export function Projects() {
       title: "Flower Classification System",
       category: "Machine Learning & AI",
       icon: Database,
-      image: "/src/images/flower.png",
+      image: "/images/flower.png",
       description: "Advanced machine learning model for automated flower species classification using computer vision and deep learning techniques.",
       features: [
         "Deep learning model for image classification",
@@ -27,7 +27,7 @@ export function Projects() {
       title: "Igitego Hotel Management System",
       category: "Hospitality & Enterprise Software",
       icon: Code,
-      image: "/src/images/igitego.png",
+      image: "/images/igitego.png",
       description: "Comprehensive hotel management platform with booking system, guest management, and administrative dashboard for Igitego Hotel.",
       features: [
         "Online room booking and reservation system",
@@ -45,7 +45,7 @@ export function Projects() {
       title: "Ishyiga Local E-commerce Platform",
       category: "E-commerce & Web Development",
       icon: Server,
-      image: "/src/images/ishyiga.png",
+      image: "/images/ishyiga.png",
       description: "Local e-commerce marketplace connecting buyers and sellers in Rwanda with secure transactions and delivery management.",
       features: [
         "Multi-vendor marketplace functionality",
@@ -63,7 +63,7 @@ export function Projects() {
       title: "Ka-Eco Environmental Platform",
       category: "Environmental & Sustainability",
       icon: Cloud,
-      image: "/src/images/ka-eco.png",
+      image: "/images/ka-eco.png",
       description: "Environmental awareness and sustainability platform promoting eco-friendly practices and environmental conservation initiatives.",
       features: [
         "Environmental impact tracking",
