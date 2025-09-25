@@ -97,14 +97,14 @@ export function Contact() {
                 <h4 className="text-lg mb-4">Professional Links</h4>
                 <div className="flex gap-4">
                   <a
-                    href="#"
+                    href="https://www.linkedin.com/in/ngabo-dev/"
                     className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center hover:bg-primary/20 transition-colors"
                     aria-label="LinkedIn Profile"
                   >
                     <Linkedin className="text-primary" size={20} />
                   </a>
                   <a
-                    href="#"
+                    href="https://github.com/ngabo-dev/"
                     className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center hover:bg-primary/20 transition-colors"
                     aria-label="GitHub Profile"
                   >
