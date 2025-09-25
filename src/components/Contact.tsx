@@ -6,7 +6,7 @@ export function Contact() {
     {
       icon: Mail,
       label: "Email",
-      value: "j.niyongabo@alustudent.com",
+      value: ["j.niyongabo@alustudent.com", "ngabo470@gmail.com"],
       href: "mailto:j.niyongabo@alustudent.com"
     },
     {
@@ -72,12 +72,26 @@ export function Contact() {
                     <div>
                       <p className="text-sm text-muted-foreground">{contact.label}</p>
                       {contact.href ? (
-                        <a 
-                          href={contact.href}
-                          className="text-foreground hover:text-primary transition-colors"
-                        >
-                          {contact.value}
-                        </a>
+                        Array.isArray(contact.value) ? (
+                          <div className="space-y-1">
+                            {contact.value.map((email, emailIndex) => (
+                              <a
+                                key={emailIndex}
+                                href={`mailto:${email}`}
+                                className="block text-foreground hover:text-primary transition-colors"
+                              >
+                                {email}
+                              </a>
+                            ))}
+                          </div>
+                        ) : (
+                          <a 
+                            href={contact.href}
+                            className="text-foreground hover:text-primary transition-colors"
+                          >
+                            {contact.value}
+                          </a>
+                        )
                       ) : (
                         <p className="text-foreground">{contact.value}</p>
                       )}

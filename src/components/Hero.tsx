@@ -70,7 +70,10 @@ export function Hero() {
             </div>
             <div className="flex items-center gap-2">
               <Mail size={18} className="text-primary" />
-              <span>j.niyongabo@alustudent.com</span>
+              <div className="flex flex-col">
+                <span>j.niyongabo@alustudent.com</span>
+                <span>ngabo470@gmail.com</span>
+              </div>
             </div>
             <div className="flex items-center gap-2">
               <Phone size={18} className="text-primary" />

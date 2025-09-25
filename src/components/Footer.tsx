@@ -81,6 +81,10 @@ export function Footer() {
               j.niyongabo@alustudent.com
             </a>
             <span>•</span>
+            <a href="mailto:ngabo470@gmail.com" className="hover:text-primary transition-colors">
+              ngabo470@gmail.com
+            </a>
+            <span>•</span>
             <a href="tel:+250787007387" className="hover:text-primary transition-colors">
               +250787007387
             </a>
