@@ -98,6 +98,8 @@ export function Contact() {
                 <div className="flex gap-4">
                   <a
                     href="https://www.linkedin.com/in/ngabo-dev/"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center hover:bg-primary/20 transition-colors"
                     aria-label="LinkedIn Profile"
                   >
@@ -105,6 +107,8 @@ export function Contact() {
                   </a>
                   <a
                     href="https://github.com/ngabo-dev/"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center hover:bg-primary/20 transition-colors"
                     aria-label="GitHub Profile"
                   >
