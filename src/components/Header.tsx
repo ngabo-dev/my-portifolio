@@ -69,8 +69,9 @@ export function Header() {
 
           {/* Mobile Menu Button */}
           <button
-            className="md:hidden"
+            className="md:hidden p-2 hover:bg-primary/10 rounded-lg transition-colors"
             onClick={() => setIsOpen(!isOpen)}
+            aria-label={isOpen ? 'Close menu' : 'Open menu'}
           >
             {isOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
@@ -82,14 +83,14 @@ export function Header() {
             initial={{ opacity: 0, height: 0 }}
             animate={{ opacity: 1, height: 'auto' }}
             exit={{ opacity: 0, height: 0 }}
-            className="md:hidden bg-background border-t"
+            className="md:hidden bg-background/95 backdrop-blur-md border-t shadow-lg"
           >
-            <div className="py-4 space-y-4">
+            <div className="py-4 space-y-2">
               {navItems.map((item) => (
                 <button
                   key={item.id}
                   onClick={() => scrollToSection(item.id)}
-                  className="block w-full text-left px-4 py-2 text-foreground hover:text-primary transition-colors"
+                  className="block w-full text-left px-6 py-3 text-foreground hover:text-primary hover:bg-primary/5 transition-colors rounded-lg mx-2"
                 >
                   {item.label}
                 </button>

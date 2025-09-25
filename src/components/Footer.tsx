@@ -73,7 +73,7 @@ export function Footer() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.8, duration: 0.8 }}
-            className="flex flex-wrap justify-center gap-6 mb-8 text-sm text-muted-foreground"
+            className="flex flex-wrap justify-center gap-3 md:gap-6 mb-8 text-xs md:text-sm text-muted-foreground"
           >
             <span>Kigali, Rwanda</span>
             <span>•</span>

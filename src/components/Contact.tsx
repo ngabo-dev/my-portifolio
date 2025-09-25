@@ -47,7 +47,7 @@ export function Contact() {
         </motion.div>
 
         <div className="max-w-4xl mx-auto">
-          <div className="grid md:grid-cols-2 gap-12">
+          <div className="grid md:grid-cols-2 gap-8 md:gap-12">
             {/* Contact Information */}
             <motion.div
               initial={{ opacity: 0, x: -50 }}

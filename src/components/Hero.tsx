@@ -68,11 +68,11 @@ export function Hero() {
               <MapPin size={18} className="text-primary" />
               <span>Kigali, Rwanda</span>
             </div>
-            <div className="flex items-center gap-2">
-              <Mail size={18} className="text-primary" />
-              <div className="flex flex-col">
-                <span>j.niyongabo@alustudent.com</span>
-                <span>ngabo470@gmail.com</span>
+            <div className="flex items-start gap-2">
+              <Mail size={18} className="text-primary mt-0.5" />
+              <div className="flex flex-col text-center md:text-left">
+                <span className="text-xs md:text-sm">j.niyongabo@alustudent.com</span>
+                <span className="text-xs md:text-sm">ngabo470@gmail.com</span>
               </div>
             </div>
             <div className="flex items-center gap-2">
@@ -87,7 +87,7 @@ export function Hero() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 1, duration: 0.8 }}
-            className="flex justify-center gap-4 mb-12 text-sm"
+            className="flex flex-wrap justify-center gap-2 md:gap-4 mb-12 text-xs md:text-sm"
           >
             <span className="bg-primary/10 px-3 py-1 rounded-full">Kinyarwanda (Native)</span>
             <span className="bg-primary/10 px-3 py-1 rounded-full">English (Fluent)</span>

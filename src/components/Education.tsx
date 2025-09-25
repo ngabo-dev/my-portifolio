@@ -138,9 +138,9 @@ export function Education() {
             <div className="space-y-3">
               <div>
                 <p className="text-primary">High School Background</p>
-                <p className="text-muted-foreground">Welding and Fabrication → Software Engineering</p>
+                <p className="text-muted-foreground">Software Engineering Foundation → Advanced IT Systems</p>
                 <p className="text-xs text-muted-foreground mt-2">
-                  Successfully transitioned from welding to IT, demonstrating exceptional adaptability
+                  Built strong foundation in software engineering, demonstrating exceptional growth in IT systems administration
                 </p>
               </div>
             </div>
